@@ -32,3 +32,29 @@ We implemented a sophisticated image classification model using transfer learnin
  - Dropout layer (50% rate)
  - Output layer with 10 neurons (Softmax activation)
 
+### Training Parameters
+**Optimizer:** [Adam](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam) (learning rate: 0.00001) <br/>
+**Loss Function:** [Categorical Crossentropy](https://www.tensorflow.org/api_docs/python/tf/keras/losses/categorical_crossentropy). <br/>
+**Epochs:** 20 <br/>
+**Early Stopping:** Monitored validation loss <br/>
+
+### Performance Metrics
+**Initial Training Accuracy:** 14.09% (Epoch 1) <br/>
+**Final Training Accuracy:** 94.76% <br/>
+**Final Validation Accuracy:** 98.41% <br/>
+**Total Model Parameters:**
+ - Trainable Parameters: 264,970
+ - Non-trainable Parameters: 3,228,864
+
+### Training Progression Highlights
+- Rapid accuracy improvement in initial epochs
+- Consistent reduction in loss
+- Minimal overfitting
+- Stable validation performance
+
+### Class Distribution
+The dataset shows a balanced distribution across 10 statue classes: <br/>
+ - Most represented class: Statue 6 (634 training images)
+ - Least represented class: Statue 8 (415 training images)
+
+## Visualization
