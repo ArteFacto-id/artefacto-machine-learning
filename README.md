@@ -24,11 +24,11 @@ The objective of this project is to carry out supervised image classification on
 We implemented a sophisticated image classification model using transfer learning with MobileNet as the base architecture. The key components of our approach include:
 
 ### Model Configuration
-  ** Base Model: MobileNet (pre-trained on ImageNet)
-  ** Input Shape: 224x224 pixels, 3 color channels
-  ** Feature Extraction:
-        - Global Average Pooling layer
-        - Dense layer with 256 neurons (ReLU activation)
-        - Dropout layer (50% rate)
-        - Output layer with 10 neurons (Softmax activation)
+**Base Model: MobileNet (pre-trained on ImageNet)
+**Input Shape: 224x224 pixels, 3 color channels
+**Feature Extraction:
+ - Global Average Pooling layer
+ - Dense layer with 256 neurons (ReLU activation)
+ - Dropout layer (50% rate)
+ - Output layer with 10 neurons (Softmax activation)
 
