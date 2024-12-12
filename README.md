@@ -58,3 +58,5 @@ The dataset shows a balanced distribution across 10 statue classes: <br/>
  - Least represented class: Statue 8 (415 training images)
 
 ## Visualization
+
+![visualization-CNN](https://github.com/user-attachments/assets/afeed0f3-769a-4821-9369-20ca13d49216)
