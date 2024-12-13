@@ -4,12 +4,13 @@ Welcome to **ArteFacto Machine Learning**, where we are building a powerful imag
 
 ## Dataset
 
-Our dataset, which includes high-quality images of the statues at Prambanan Temple, is available on our [Drive ](https://drive.google.com/drive/folders/1REQhQLxiZOUIh9l7CW7M9ALAsBwUllRa?usp=drive_link). It contains detailed labeled images for classification, which are crucial for training and improving the accuracy of our machine learning model.
+Our dataset, which includes high-quality images of the statues at Prambanan Temple, is available on our Google Drive. It contains detailed, labeled images that are crucial for training and improving the accuracy of our machine learning model. After preprocessing the data, the processed dataset can be accessed here.
 
 The dataset has the following features:
-- Consists of 8,061 color images in 10 classes
-- Comprises 4,689 training images, 1,698 validation images, and 1674 test images.
-- Classes: siwa, nandhi, wisu, brahma, gupolo, ganesa, durga, agastya, surya, candra.
+
+Consists of 8,061 color images categorized into 10 classes.
+Includes 4,689 training images, 1,698 validation images, and 1,674 test images.
+Classes: Siwa, Nandhi, Wisu, Brahma, Gupolo, Ganesa, Durga, Agastya, Surya, and Candra.
 
 Feel free to explore and contribute to the dataset as we continue to refine our approach.
 
@@ -53,8 +54,8 @@ We implemented a sophisticated image classification model using transfer learnin
 - Stable validation performance
 
 ### Class Distribution
-The dataset shows a balanced distribution across 10 statue classes: <br/>
- - Most represented class: Statue 6 (634 training images)
+The dataset shows a balanced distribution across 10 statue classes : <br/>
+ - Most represented class: Statue 6 (634 training images)(
  - Least represented class: Statue 8 (415 training images)
 
 ## Visualization
