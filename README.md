@@ -55,8 +55,8 @@ We implemented a sophisticated image classification model using transfer learnin
 
 ### Class Distribution
 The dataset shows a balanced distribution across 10 statue classes : <br/>
- - Most represented class: Statue 6 (634 training images)
- - Least represented class: Statue 8 (415 training images)
+ - Most represented class: Statue 6 (634 training images)(239 validation image)(242 test image)
+ - Least represented class: Statue 8 (415 training images)(118 validation image)(121 test image)
 
 ## Visualization
 
